@@ -3,24 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandrine P | Full Stack Web Developer & Data Analyst</title>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/a28be7c7ce.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Sedgwick+Ave&display=swap"
       rel="stylesheet"
     />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" />
-    <title>Sandrine P | Full Stack Web Developer & Data Analyst</title>
   </head>
+
   <body>
-    <!-- Header -->
+    <!-- * * * * * Header * * * * * -->
     <header id="header-home">
       <div class="dark-overlay">
         <div class="container">
-          <nav id="main-nav" class="">
+          <!-- Navbar -->
+          <nav id="main-nav">
             <img src="img/logo.png" alt="SP's portfolio" id="logo" />
             <ul>
               <li><a href="index.html" class="current">Home</a></li>
@@ -29,6 +53,7 @@
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
+          <!-- Hero -->
           <div class="header-content">
             <h1>
               <span
@@ -36,17 +61,64 @@
                 data-wait="2000"
                 data-words='["Hello", "Bonjour", "Hola"]'
               ></span>
-              !
+              <span id="exclam">!</span>
             </h1>
             <p class="lead">
-              I am a full-stack web developer and data analyst with a background
-              in real estate investment and management.
+              I am a full-stack web developer and data analyst with<br />a
+              background in real estate investment and management.
             </p>
-            <a href="work.html" class="btn-light">View My Work</a>
+            <div class="bg-splash-button">
+              <a href="work.html" class="push-button push-animate push-blue"
+                >View My Work</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- Section A: Specialize -->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">I specialize in</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Full-Stack Web Development, as well as Data Analysis, Machine
+          Learning, and Data Visualization.
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fas fa-file-alt fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              dignissimos repudiandae nesciunt. Atque non impedit sit iusto,
+              numquam quo corrupti?
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-file-alt fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              dignissimos repudiandae nesciunt. Atque non impedit sit iusto,
+              numquam quo corrupti?
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-file-alt fa-2x"></i>
+            <h3>Concepting</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+              dignissimos repudiandae nesciunt. Atque non impedit sit iusto,
+              numquam quo corrupti?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Type Effect -->
     <script src="js/typewriter.js"></script>
   </body>
 </html>
