@@ -75,7 +75,7 @@ img {
 
 // Header
 #header {
-  // Header Home
+  // Header home
   &-home {
     background: $bg-image-2560 no-repeat top center / cover;
     height: 100vh;
@@ -114,7 +114,61 @@ img {
     }
   }
 
-  // Header Inner
-  // &-inner {
-  // }
+  // Header inner
+  &-inner {
+    background: $bg-image-2560 no-repeat top left;
+    height: 5.5rem;
+    border-bottom: 3px solid $blue-color;
+  }
+}
+
+// Specialize section
+#about {
+  &-specialize {
+    .specials {
+      margin-top: 3rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+
+      .fad {
+        color: $blue-color;
+        padding-bottom: 0.5rem;
+      }
+
+      p {
+        text-align: left;
+        padding: 1rem 2rem;
+      }
+    }
+  }
+}
+
+// Footer
+#main-footer {
+  background: $dark-color;
+  color: $light-color;
+  height: 5rem;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+    .social .fab {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem;
+
+      &:hover {
+        background: $blue-color;
+      }
+    }
+  }
 }

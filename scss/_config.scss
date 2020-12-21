@@ -18,3 +18,12 @@ $bg-image-1024: url('../img/showcase_1024.jpg');
 $bg-image-1280: url('../img/showcase_1280.jpg');
 $bg-image-1440: url('../img/showcase_1440.jpg');
 $bg-image-2560: url('../img/showcase_2560.jpg');
+
+// Set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

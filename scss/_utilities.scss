@@ -111,3 +111,81 @@ input[class^='btn-']:hover {
   width: 100%;
   height: 100%;
 }
+
+.inner {
+  height: 5.5rem;
+}
+
+// Padding
+.px {
+  &-1 {
+    padding: 0 1rem;
+  }
+  &-2 {
+    padding: 0 2rem;
+  }
+  &-3 {
+    padding: 0 3rem;
+  }
+  &-4 {
+    padding: 0 4rem;
+  }
+  &-5 {
+    padding: 0 5rem;
+  }
+}
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+  &-5 {
+    padding: 5rem 0;
+  }
+}
+
+// Margin
+.mx {
+  &-1 {
+    margin: 0 1rem;
+  }
+  &-2 {
+    margin: 0 2rem;
+  }
+  &-3 {
+    margin: 0 3rem;
+  }
+  &-4 {
+    margin: 0 4rem;
+  }
+  &-5 {
+    margin: 0 5rem;
+  }
+}
+
+.my {
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+  &-5 {
+    margin: 5rem 0;
+  }
+}
